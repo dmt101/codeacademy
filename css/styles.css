@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(128, 119, 0);
+}
+
+.central {
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* The Nav Section */
+.central ul {
+    display: inline-flex;
+    background-color: rgb(85, 6, 59);
+    width: 100%;
+}
+
+.central ul label {
+    font-size: 2vmax;
+    color: white;
+    margin-right: 30%;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul label b {
+    color: greenyellow;
+}
+
+.central ul li {
+    list-style: none;
+    margin-right: 15px;
+    margin-top: 4px
+}
+
+.central ul li a {
+    text-decoration: none;
+    font-size: 1.99vmax;
+    color: whitesmoke;
+}
+
+.central ul label:hover,
+.central ul li a:hover {
+    color: rgb(0, 196, 0);
+}
+
+/* The Mid Section of our Home paege */
+.mid {
+    background-color: whitesmoke;
+}
+
+.mid h1 {
+    font-size: 10vmax;
+    margin-top: 6%;
+
+}
+
+.mid p {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.mid button {
+    width: 350px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 50px;
+    background-color: greenyellow;
+    border-style: none;
+    border-radius: 30px;
+}
+
+.mid button:hover {
+    background-color: rgb(0, 255, 0);
+}
+
+.mid button a {
+    text-decoration: none;
+    font-size: 1.7vmax;
+    color: green;
+}
+
+/* Blog Section  */
+.left {
+    float: left;
+    width: 49%;
+    margin-right: 3px;
+    background-color: whitesmoke;
+}
+
+.right {
+    float: right;
+    width: 49%;
+    background-color: aqua;
+}
+
+.left img,
+.right img {
+    width: 150px;
+    float: right;
+    margin: 7px;
+}
